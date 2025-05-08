@@ -161,13 +161,7 @@ if __name__ == '__main__':
         help="Show magemaker version and exit"
     )
 
-    parser.add_argument(
-        '--query',
-        action='query',
-        help="path to YAML query configuration file",
-        type=str
-    )
-
+    
 
     parser.add_argument(
         "--hf",
