@@ -154,19 +154,7 @@ if __name__ == '__main__':
         epilog="As an alternative to the commandline, params can be placed in a file, one per line, and specified on the commandline like '%(prog)s @params.conf'.",
         fromfile_prefix_chars='@')
     
-    parser.add_argument(
-        '--version',
-        action='version',
-        version=f"{GREEN}magemaker v{VERSION}{NC}",
-        help="Show magemaker version and exit"
-    )
-
-    parser.add_argument(
-        '--query',
-        action='query',
-        help="path to YAML query configuration file",
-        type=str
-    )
+   
 
 
     parser.add_argument(
