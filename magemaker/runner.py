@@ -168,29 +168,7 @@ if __name__ == '__main__':
         type=str
     )
 
-    parser.add_argument(
-        '--query-toml',
-        action='query',
-        help="path to TOML query configuration file",
-        type=str
-    )
-
-
-    parser.add_argument(
-        "--hf",
-        help="Deploy a Hugging Face Model.",
-        type=str
-    )
-    parser.add_argument(
-        "--instance",
-        help="EC2 instance type to deploy to.",
-        type=str
-    )
-    parser.add_argument(
-        "--deploy",
-        help="path to YAML deployment configuration file",
-        type=str
-    )
+    
     parser.add_argument(
         "--train",
         help="path to YAML training configuration file",
