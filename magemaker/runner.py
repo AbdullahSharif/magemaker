@@ -179,6 +179,13 @@ if __name__ == '__main__':
         type=str
     )
 
+    parser.add_argument(
+        '--query-toml',
+        action='query',
+        help="path to TOML query configuration file",
+        type=str
+    )
+
     
     parser.add_argument(
         "--train",
