@@ -172,7 +172,12 @@ if __name__ == '__main__':
         type=str
     )
 
-   
+    parser.add_argument(
+        '--query',
+        action='query',
+        help="path to YAML query configuration file",
+        type=str
+    )
 
 
     
