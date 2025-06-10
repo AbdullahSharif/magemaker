@@ -172,20 +172,7 @@ if __name__ == '__main__':
         type=str
     )
 
-    parser.add_argument(
-        '--query',
-        action='query',
-        help="path to YAML query configuration file",
-        type=str
-    )
-
-
     
-    parser.add_argument(
-        "--train",
-        help="path to YAML training configuration file",
-        type=str
-    )
     parser.add_argument(
         "-v",
         "--verbose",
