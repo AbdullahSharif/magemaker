@@ -161,7 +161,6 @@ if __name__ == '__main__':
         help="Show magemaker version and exit"
     )
 
-
     parser.add_argument(
         "--hf",
         help="Deploy a Hugging Face Model.",
@@ -172,11 +171,16 @@ if __name__ == '__main__':
         help="EC2 instance type to deploy to.",
         type=str
     )
+
     parser.add_argument(
-        "--deploy",
-        help="path to YAML deployment configuration file",
+        '--query',
+        action='query',
+        help="path to YAML query configuration file",
         type=str
     )
+
+
+    
     parser.add_argument(
         "--train",
         help="path to YAML training configuration file",
